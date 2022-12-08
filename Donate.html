@@ -1,0 +1,279 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="donatecss.css">
+
+        <title>Blood Donate</title>
+    </head>
+
+    <body>
+<!-- nav bar -->
+        <nav class="navbar navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> <h2> Thanks </h2></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Thanks</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="Home.html"><h4> About us </h4></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><h4> Records </h4></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><h4> Help </h4></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><h4> Blood Organizations info </h4></a>
+                    </li>   
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <h4> Blood </h4>
+                      </a>                                         
+                      <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                        <li><a class="dropdown-item" href="Donate.html"> <h5> Donate blood in your area </h5></a></li>
+                        <li><a class="dropdown-item" href="#"><h5> Find blood in your area </h5>
+                        </a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Updating....</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <br>                    
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info" type="submit"> Search </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+          
+<!-- head image -->
+
+          <div class="head_image"><img src="Pictures/Blood Donation Logo.png" class="rounded mx-auto d-block" alt="..."> </div>
+
+          <p class="placeholder-glow">
+            <span class="placeholder col-12"></span>
+         </p>
+<!-- grid -->
+
+         
+
+<!-- do sign up -->
+              
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Do Sign up
+                  </button>
+                  
+<!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Authentic information must be provided to avoid endangering the lives of others.</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                         
+                          
+                          <form class="row g-3">
+                            <div class="row mt-3">
+                              <div class="col">
+                                <label for="inputAddress2" class="form-label">First Name</label> 
+                                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                              </div>
+                              <div class="col">
+                                <label for="inputAddress2" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                              </div>
+                            </div>
+                            <div class="col-md-6">
+                              <label class="form-label">Your Mobile Number</label>
+                              <input type="tel" name="num" id="num" placeholder="01750-331389" pattern="[0-9]{5}-[0-9]{6}" required>
+                            </div>
+                            <div class="col-md-6">
+                              <label class="form-label">Alternative Mobile Number</label>
+                              <input type="tel" name="num" id="num" placeholder="01867-354045" pattern="[0-9]{5}-[0-9]{6}" required>
+                            </div>                                      
+        <!-- warning -->                       
+                            <div class="badge bg-danger text-wrap m-2" style="width: 6rem;">
+                              Give the address of the area where you can assist. 
+                              </div>
+                            <div class="badge bg-primary text-wrap m-2" style="width: 6rem;">
+                              Give your phone number that people can reach easily you in need. 
+                              </div>
+                            <div class="badge bg-warning text-wrap m-2" style="width: 6rem;">
+                              Give correct information to ignore any kind of risk of the patient. 
+                              </div>
+                            <div class="col-12">
+                              <label for="inputAddress" class="form-label">District Name</label>
+                              <input type="text" class="form-control" id="inputAddress" placeholder="Dhaka">
+                            </div>
+                            <div class="col-12">
+                              <label for="inputAddress2" class="form-label">Thana Name</label>
+                              <input type="text" class="form-control" id="inputAddress2" placeholder="Dhanmondi">
+                            </div>
+                            <div class="col-md-4">
+                              <label for="inputState" class="form-label">Blood Group</label>
+                              <select id="inputState" class="form-select">
+                                <option selected>Choose</option>              
+                                <option>A+</option>
+                                <option>A-</option>
+                                <option>B+</option>
+                                <option>B-</option>
+                                <option>O+</option>
+                                <option>O-</option>
+                                <option>AB+</option>
+                                <option>AB-</option>
+                              </select>
+                            </div>
+                            <div class="col-md-4">
+                              <label for="inputState" class="form-label">I doneate</label>
+                              <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>Regularly</option>
+                                <option>Irregularly</option>
+                                <option>Call me on emergency only</option>
+                              </select>
+                            </div>
+                            <div class="col-md-4">
+                              <label for="inputState" class="form-label">I'm 18+</label>
+                              <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                              </select>
+                            </div>
+                            <div class="col-md-4">
+                              <label for="inputState" class="form-label">Sex</label>
+                              <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                              </select>
+                            </div>
+                            <div class="col-md-4">
+                              <label for="inputState" class="form-label">Donated Before?</label>
+                              <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                              </select>
+                            </div> 
+                            <div class="col-md-4">
+                              <label for="inputState" class="form-label">Any addiction?</label>
+                              <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>I'm clean</option>
+                                <option>Chain Smoker</option>
+                                <option>Drug addicted</option>
+                                <option>Both</option>
+                              </select>
+                            </div> 
+        <!-- disease block -->
+                            <div class="container">
+                              <div class="row row-cols-5 row-cols-lg-3 g-2 g-lg-3">
+                                <div class="col">
+                                  <div class="p-3 border bg-info">Heart disease
+                                  </div>
+                                </div>
+                                <div class="col">
+                                  <div class="p-3 border bg-primary">Cancer</div>
+                                </div>
+                                <div class="col">
+                                  <div class="p-3 border bg-warning">Diabetes</div>
+                                </div>
+                                <div class="col">
+                                  <div class="p-3 border bg-success">Hepatitis B/C</div>
+                                </div>
+                                <div class="col">
+                                  <div class="p-3 border bg-secondary">Typhoid</div>
+                                </div>
+                                <div class="col">
+                                  <div class="p-3 border bg-success">Lung disease</div>
+                                </div>
+                                <div class="col">
+                                  <div class="p-3 border bg-danger">Tuberculosis</div>
+                                </div>
+                                <div class="col">
+                                  <div class="p-3 border bg-info">Allergic</div>
+                                </div>
+                                <div class="col">
+                                  <div class="p-3 border bg-primary">Kidney Disease</div>
+                                </div>
+                                <div class="col">
+                                  <div class="p-3 border bg-warning">Epilepsy</div>
+                                </div>
+                                <div class="col">
+                                  <div class="p-3 border bg-secondary">Jaundice</div>
+                                </div>
+                                <div class="col">
+                                  <div class="p-3 border bg-danger">Malaria</div>
+                                </div>
+                              </div>
+                            </div>                                      
+                            <div class="col-md-4">  
+                              <label for="inputState" class="form-label">Do you suffer from any of the ailments listed above?</label>                                      
+                              <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                              </select>
+                            </div> 
+                            <div class="col-md-4">
+                              <label for="inputState" class="form-label">Is there any history of surgery in the past six months?</label>
+                              <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                              </select>
+                            </div> 
+        
+                            
+                            <div class="col-12">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                  Check me out
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <button type="submit" class="btn btn-primary">Sign in</button>
+                            </div>
+                          </form>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+              </div>
+            </div>
+                 
+
+         
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
